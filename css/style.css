@@ -1,5 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --main-color: #304351;
+    --secound-color: #E8524A;
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-color) !important;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: var(--poppins);
+}
+
+.navbar {
+    box-shadow: -3px 2px 5px 4px rgb(0 0 0 / 6%);
+}
+
+
+.navbar .collapse .navbar-nav a {
+    color: var(--main-color);
+    padding: 9px 16px;
+    font-size: 23px;
+    text-decoration: none;
+}
+.navbar .collapse .navbar-nav a:hover {
+    color: var(--secound-color) !important;
+}
+
+.navbar .collapse .navbar-nav a.active_menu {
+    color: var(--secound-color) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow:none;
+}
+.navbar-toggler-icon i {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.svg_img_login img {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+
+.top_title {
+    color: var(--main-color);
+}
+
+.top_title h1 {
+    font-weight: 600;
+}
+
+.signup_form .top_img_u {
+    width: 100px;
+    height: auto; 
+}
+
+.signup_form .top_img_u i {
+    font-size: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9c9c9c;
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.top_img_u p {
+    display: flex;
+    justify-content: center;
+}
+.all_info.m-auto {
+    width: 70%;
+    color: var(--main-color);
+}
+.all_info .input_info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 11px;
+}
+.input_info .in_con {
+    margin: 0 0 0 21px;
+    width: 85%;
+}
+
+.input_info .in_con p {
+    margin: 0;
+    font-size: 15px;
+}
+.input_info .in_con input {
+    border: none;
+    border-bottom: 1.5px solid var(--main-color);
+    width: 100%;
+    outline: none;
+}
+.input_info .in_con select {
+    width: 100%;
+    outline: none;
+}
+.input_info .in_con input::placeholder {
+    color: var(--main-color);
+    opacity: 0.5;
+}
+
+.bottom_con {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.bottom_con .bottom_agree p {
+    margin: 0;
+}
+
+.bottom_con .bottom_agree .select_want {
+    border: 1px solid;
+    border-radius: 7px;
+    width: 65%;
+    margin: auto;
+    cursor: pointer;
+}
+.bottom_con .bottom_agree .select_want p {
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    padding-left: 13px;
+    border-radius: 4px;
+}
+.bottom_con .bottom_agree .select_want p.active{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.bottom_agree {
+    margin-top: 15px;
+}
+
+.bottom_agree span {
+    font-size: 11px;
+}
+.bottom_agree input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+}
+
+.bottom_agree span a {
+    text-decoration: underline;
 }
