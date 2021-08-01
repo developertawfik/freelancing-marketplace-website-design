@@ -24,14 +24,18 @@ body{
 
 .navbar {
     box-shadow: -3px 2px 5px 4px rgb(0 0 0 / 6%);
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 9999;
 }
-
 
 .navbar .collapse .navbar-nav a {
     color: var(--main-color);
     padding: 9px 16px;
     font-size: 23px;
     text-decoration: none;
+    transition: all 0.5s ease;
 }
 .navbar .collapse .navbar-nav a:hover {
     color: var(--secound-color) !important;
@@ -56,8 +60,12 @@ body{
     margin: auto;
     height: auto;
     display: flex;
+    margin-top: 80px;
 }
-
+main {
+    position: relative;
+    top: 68px;
+}
 .top_title {
     color: var(--main-color);
 }
@@ -89,7 +97,7 @@ body{
     justify-content: center;
 }
 .all_info.m-auto {
-    width: 70%;
+    width: 85%;
     color: var(--main-color);
 }
 .all_info .input_info {
@@ -123,7 +131,7 @@ body{
 }
 
 .bottom_con {
-    width: 70%;
+    width: 90%;
     margin: auto;
     text-align: center;
 }
@@ -140,11 +148,10 @@ body{
 }
 .bottom_con .bottom_agree .select_want p {
     font-size: 14px;
-    padding: 5px;
     text-align: center;
     margin: auto;
-    padding-left: 13px;
     border-radius: 4px;
+    width: 100%;
 }
 .bottom_con .bottom_agree .select_want p.active{
     background-color: var(--main-color);
@@ -166,4 +173,52 @@ body{
 
 .bottom_agree span a {
     text-decoration: underline;
+}
+.submit_btn.d-flex {
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.submit_btn.d-flex input:nth-child(1) {
+    padding: 6px 15px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 3px 12px 7px #80808047;
+}
+.submit_btn.d-flex input:nth-child(2) {
+    padding: 6px 15px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 3px 12px 3px #80808047;
+}
+
+.login_with.m-auto .d-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.login_with.m-auto .d-flex .icon_with{
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    .all_info.m-auto {
+        width: 90%;
+    }
+    .bottom_con {
+        width: 87%;
+    }
+}
+@media (max-width:400px){
+    .all_info.m-auto {
+        width: 95%;
+    }
+    .bottom_con {
+        width: 100%;
+    }
 }
