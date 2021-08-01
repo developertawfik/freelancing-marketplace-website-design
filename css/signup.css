@@ -117,9 +117,12 @@ main {
 }
 .input_info .in_con input {
     border: none;
-    border-bottom: 1.5px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
     width: 100%;
     outline: none;
+}
+.input_info .in_con input:focus{
+    border-bottom: 2px solid var(--secound-color);
 }
 .input_info .in_con select {
     width: 100%;

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --poppins      : 'Poppins', sans-serif;
+    --main-color   : #304351;
+    --secound-color: #E8524A;
+}
+
+a {
+    text-decoration: none;
+    color          : var(--main-color) !important;
+}
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--poppins);
+}
+
+.navbar {
+    box-shadow: -3px 2px 5px 4px rgb(0 0 0 / 6%);
+    position  : fixed;
+    width     : 100%;
+    background: white;
+    z-index   : 9999;
+}
+
+.navbar .collapse .navbar-nav a {
+    color          : var(--main-color);
+    padding        : 9px 16px;
+    font-size      : 23px;
+    text-decoration: none;
+    transition     : all 0.5s ease;
+}
+
+.navbar .collapse .navbar-nav a:hover {
+    color: var(--secound-color) !important;
+}
+
+.navbar .collapse .navbar-nav a.active_menu {
+    color: var(--secound-color) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon i {
+    font-size      : 26px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 2px;
+}
+
+.svg_img_login img {
+    width     : 80%;
+    margin    : auto;
+    height    : auto;
+    display   : flex;
+    margin-top: 80px;
+}
+
+main {
+    position: relative;
+    top     : 68px;
+}
+
+.top_title {
+    color: var(--main-color);
+    margin-top: 25px;
+}
+
+.top_title h1 {
+    font-weight: 600;
+}
+
+
+.all_info.m-auto {
+    width: 85%;
+    color: var(--main-color);
+}
+
+.all_info .input_info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.input_info .in_con {
+    margin: 0 0 0 21px;
+    width : 85%;
+}
+
+.input_info .in_con p {
+    margin   : 0;
+    font-size: 15px;
+}
+
+.input_info .in_con input {
+    border       : none;
+    border-bottom: 2px solid var(--main-color);
+    width        : 100%;
+    outline      : none;
+}
+
+.input_info .in_con input:focus {
+    border-bottom: 2px solid var(--secound-color);
+}
+
+.input_info .in_con select {
+    width  : 100%;
+    outline: none;
+}
+
+.input_info .in_con input::placeholder {
+    color  : var(--main-color);
+    opacity: 0.5;
+}
+
+.bottom_con {
+    width     : 90%;
+    margin    : auto;
+    text-align: center;
+}
+
+.bottom_con .bottom_agree p {
+    margin: 0;
+}
+
+.bottom_con .bottom_agree .select_want {
+    border       : 1px solid;
+    border-radius: 7px;
+    width        : 65%;
+    margin       : auto;
+    cursor       : pointer;
+}
+
+.bottom_con .bottom_agree .select_want p {
+    font-size    : 14px;
+    text-align   : center;
+    margin       : auto;
+    border-radius: 4px;
+    width        : 100%;
+}
+
+.bottom_con .bottom_agree .select_want p.active {
+    background-color: var(--main-color);
+    color           : white;
+}
+
+
+.submit_btn.d-flex {
+    justify-content: space-around;
+    width          : 80%;
+    margin         : auto;
+    margin-top     : 13px;
+}
+
+.submit_btn.d-flex input:nth-child(1) {
+    padding         : 6px 15px;
+    background-color: transparent;
+    border          : none;
+    border-radius   : 8px;
+    box-shadow      : 0px 3px 12px 3px #80808047;
+
+
+
+}
+.forget.d-flex {
+    width: 62%;
+    margin: auto;
+    margin-top: 37px;
+    justify-content: space-between;
+}
+
+.forget.d-flex a {
+    margin-right: 5px;
+}
+
+.submit_btn.d-flex input:nth-child(2) {
+    padding         : 6px 15px;
+    background-color: var(--main-color);
+    color           : white;
+    border          : none;
+    border-radius   : 8px;
+    box-shadow      : 0px 3px 12px 7px #80808047;
+}
+
+.login_with.m-auto .d-flex {
+    justify-content: center;
+    align-items    : center;
+}
+
+.login_with.m-auto .d-flex .icon_with {
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .all_info.m-auto {
+        width: 90%;
+    }
+
+    .bottom_con {
+        width: 87%;
+    }
+}
+
+@media (max-width:400px) {
+    .all_info.m-auto {
+        width: 95%;
+    }
+
+    .bottom_con {
+        width: 100%;
+    }
+}
