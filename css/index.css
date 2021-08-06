@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --poppins      : 'Poppins', sans-serif;
+    --main-color   : #304351;
+    --secound-color: #E8524A;
+}
+
+a {
+    text-decoration: none;
+    color          : var(--main-color) !important;
+}
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--poppins);
+}
+
+.navbar {
+    box-shadow: -3px 2px 5px 4px rgb(0 0 0 / 6%);
+    width     : 100%;
+    background: white;
+}
+
+.navbar .collapse .navbar-nav a {
+    color          : var(--main-color);
+    padding        : 9px 16px;
+    font-size      : 23px;
+    text-decoration: none;
+    transition     : all 0.5s ease;
+}
+
+.navbar .collapse .navbar-nav a:hover {
+    color: var(--secound-color) !important;
+}
+
+.navbar .collapse .navbar-nav a.active_menu {
+    color: var(--secound-color) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon i {
+    font-size      : 26px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 2px;
+}
+
+.navbar .collapse .navbar-nav img {
+    width        : 50px;
+    height       : 50px;
+    object-fit   : cover;
+    border-radius: 100%;
+    cursor       : pointer;
+    margin-left  : 11px;
+}
+
+.banner-area {
+    background-image: url(../img/home-banner.jpg);
+    height          : 555px;
+    width           : 100%;
+    background-size : cover;
+}
+
+.left_c {
+    margin: 121px 0px 0px 65px;
+}
+
+.left_c h1 {
+    font-size  : 58px;
+    color      : rgb(255, 255, 255);
+    font-weight: bold;
+    text-align : left;
+    text-shadow: 0px 3px 15px rgb(0 0 0 / 63%);
+}
+
+.left_c button {
+    padding      : 5px 20px;
+    margin-top   : 24px;
+    margin-left  : 10px;
+    border-radius: 21px;
+    border       : none;
+    font-size    : 21px;
+    font-weight  : 500;
+}
+
+.left_c button:nth-child(2) {
+    color           : white;
+    background-color: var(--secound-color);
+}
+
+.left_c button:nth-child(3) {
+    color           : var(--secound-color);
+    background-color: transparent;
+}
+
+div#service {
+    margin-top: 30px;
+}
+
+div#service .container {
+    padding: 0px 52px;
+}
+
+#service h1 {
+    color      : var(--main-color);
+    font-weight: 600;
+}
+
+.srevices_item {
+    background-color: white;
+    margin          : 39px 84px;
+    border-radius   : 25px;
+    box-shadow      : 1px 2px 21px -6px grey;
+}
+
+.srevices_item img {
+    width     : 100%;
+    height    : 140px;
+    object-fit: contain;
+    padding   : 16px;
+}
+
+.s_title {
+    width     : 95%;
+    margin    : auto;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.s_title p {
+    font-size  : 23px;
+    font-weight: 500;
+    color      : var(--main-color);
+}
+
+#service .col-md-4 {
+    cursor: pointer;
+}
+
+.about.container {
+    margin-top: 70px;
+}
+
+.about h1 {
+    color      : var(--main-color);
+    font-weight: 600;
+}
+
+.about .a_select {
+    width        : 80%;
+    margin       : auto;
+    text-align   : center;
+    margin-bottom: 37px;
+    margin-top   : 36px;
+}
+
+.about .a_select span {
+    font-size    : 23px;
+    padding      : 0 100px;
+    border-bottom: 2px solid #3043519c;
+    margin       : -4px;
+    color        : var(--main-color);
+    cursor       : pointer;
+}
+
+.about .a_select span.active {
+    border-bottom: 2px solid #e8524a75;
+    color        : var(--secound-color);
+}
+
+.a_right {
+    margin-top: 50px;
+}
+
+.a_right h1 {
+    color: var(--main-color);
+}
+
+.a_right ul {
+    color: var(--main-color);
+}
+
+.a_right button {
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-radius: 21px;
+    border: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    background-color: var(--main-color);
+    box-shadow: 2px 0px 18px 0px #808080d4;
+}
+
+.a_right p {
+    margin-top : 22px;
+    color      : var(--main-color);
+    line-height: 1;
+}
+
+
+.a_left img {
+    width : 100%;
+    height: auto;
+}
+
+.row.item_a.freelancer {
+    display: none;
+}
+
+.row.item_a.freelancer.active_this {
+    display: flex;
+}
+
+.protfolio-item {
+    height: auto !important;
+}
