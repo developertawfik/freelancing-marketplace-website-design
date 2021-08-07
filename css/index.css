@@ -224,5 +224,220 @@ div#service .container {
 }
 
 .protfolio-item {
-    height: auto !important;
+    height: 520px !important;
+}
+
+.trushted h1 {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.trushted img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.join {
+    margin-top: 60px;
+}
+.join h1 {
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.join_main {
+    background: white;
+    box-shadow: 1px 0px 18px 4px #80808094;
+    margin: 15px 68px;
+    border-radius: 25px;
+    height: auto;
+    padding: 19px;
+    text-align: center;
+}
+
+.join_main h3 {
+    font-size: 31px;
+    font-weight: 700;
+    color: var(--secound-color);
+}
+
+.join_main p {
+    font-size: 25px;
+    height: 175px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join_main button {
+    padding: 5px 20px;
+    border-radius: 21px;
+    border: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    background-color: var(--main-color);
+    box-shadow: 2px 0px 18px 0px #808080d4;
+}
+footer {
+    border-top: 2px solid;
+    margin-top: 120px;
+}
+.footer_menu .row {
+    text-align: center;
+    color: var(--main-color);
+    padding-top: 28px;
+}
+.footer_menu .row ul {
+    text-align: initial;
+    list-style: none;
+    padding-left: 99px;
+    margin-top: 32px;
+    font-size: 19px;
+}
+
+.footer_menu .row ul.middle {
+    padding-left: 117px;
+}
+
+.footer_menu .row ul li {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.footer_add {
+    font-size: 15px;
+    margin-top: 45px;
+}
+
+@media (max-width:1400px){
+    .join_main {
+        margin: 15px 20px;
+    }
+    .srevices_item {
+        margin: 39px 56px;
+    }
+    .footer_menu .row ul {
+        padding-left: 73px;
+    }
+    .footer_menu .row ul.middle {
+        padding-left: 88px;
+    }
+    .footer_menu .row ul {
+        padding-left: 73px;
+    }
+    .footer_menu .row ul.middle {
+        padding-left: 88px;
+    }
+    .protfolio-item {
+        height: 454px !important;
+    }
+}
+
+@media (max-width:1200px){
+    .join_main {
+        margin: 15px 20px;
+    }
+    .srevices_item {
+        margin: 39px 56px;
+    }
+
+    .footer_menu .row ul {
+        padding-left: 48px;
+    }
+    .footer_menu .row ul.middle {
+        padding-left: 67px;
+    }
+    .protfolio-item {
+        height: 410px !important;
+    }
+    .a_right {
+        margin-top: 4px;
+    }
+}
+@media (max-width:1000px){
+    .srevices_item {
+        margin: 39px 18px;
+    }
+    .s_title p {
+        font-size: 18px;
+    }
+    .about .a_select {
+        width: 100%;
+    }
+    .about .a_select span {
+        font-size: 20px;
+        padding: 0 64px;
+    }
+    .join_main {
+        margin: 15px 2px;
+    }
+    .left_c h1 {
+        font-size: 53px;
+    }
+    .protfolio-item {
+        height: 368px !important;
+    }
+    .footer_menu .row ul {
+        padding-left: 25px;
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    .footer_menu .row ul.middle {
+        padding-left: 37px;
+    }
+    .footer_add {
+        font-size: 14px;
+        margin-top: 21px;
+    }
+}
+
+@media (max-width:768px){
+    .protfolio-item {
+        height: 643px !important;
+    }
+    .a_right {
+        margin-top: 24px;
+    }
+    .srevices_item img {
+        height: 200px;
+    }
+    .footer_menu .row {
+        text-align: inherit;
+    }
+    .footer_menu .row ul {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .footer_menu .row ul.middle {
+        padding-left: 0;
+    }
+    .left_c {
+        margin: 121px 0px 0px 24px;
+    }
+}
+    
+@media (max-width:500px){
+    .left_c h1 {
+        font-size: 38px;
+    }
+    .left_c button {
+        padding: 2px 15px;
+        margin-left: -1px;
+    }
+    .banner-area {
+        height: 450px;
+    }
+    .left_c {
+        margin: 95px 0px 0px 24px;
+    }
+    .about .a_select span {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+    .protfolio-item {
+        height: 585px !important;
+    }
 }
