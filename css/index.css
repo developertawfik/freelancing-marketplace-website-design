@@ -440,4 +440,7 @@ footer {
     .protfolio-item {
         height: 585px !important;
     }
+    .join_main {
+        margin: 20px;
+    }
 }
