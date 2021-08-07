@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --poppins      : 'Poppins', sans-serif;
+    --main-color   : #304351;
+    --secound-color: #E8524A;
+}
+
+a {
+    text-decoration: none;
+    color          : var(--main-color) !important;
+}
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--poppins);
+}
+
+.navbar {
+    box-shadow: -3px 2px 5px 4px rgb(0 0 0 / 6%);
+    width     : 100%;
+    background: white;
+}
+
+.navbar .collapse .navbar-nav a {
+    color          : var(--main-color);
+    padding        : 9px 16px;
+    font-size      : 23px;
+    text-decoration: none;
+    transition     : all 0.5s ease;
+}
+
+.navbar .collapse .navbar-nav a:hover {
+    color: var(--secound-color) !important;
+}
+
+.navbar .collapse .navbar-nav a.active_menu {
+    color: var(--secound-color) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon i {
+    font-size      : 26px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 2px;
+}
+
+
+.img_div {
+    background-image : url("../img/Post Job.svg");
+    height           : 180px;
+    width            : 94%;
+    background-repeat: no-repeat;
+    background-size  : contain;
+    position         : absolute;
+    top              : 542px;
+    transform        : rotate(-48deg);
+    left             : 114px;
+}
+
+.color_div {
+    width           : 401px;
+    height          : 885px;
+    background-color: var(--main-color);
+    transform       : rotate(46deg);
+    border-radius   : 212px;
+    position        : absolute;
+    top             : -200px;
+    z-index         : -999;
+    left            : 71px;
+}
+
+main .container h1 {
+	color: white;
+	margin-top: 77px;
+	text-shadow: 2px 0px 5px black;
+}
+.post {
+    width: 829px;
+    margin: auto;
+    background: white;
+    box-shadow: rgba(128, 128, 128, 0.45) 10px -1px 22px 4px;
+    color: var(--main-color);
+    margin-top: 22px;
+    margin-left: 300px;
+}
+.top.d-flex {
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background: rgb(245, 245, 245);
+}
+
+.firt.d-flex {
+    justify-content: center;
+    align-items    : center;
+}
+
+.secound.d-flex {
+    justify-content: center;
+    align-items    : center;
+}
+
+.top.d-flex .active_sec {
+    background   : white;
+    padding      : 4px 16px;
+    border-radius: 21px;
+    color        : var(--secound-color);
+}
+
+.post_con {
+    padding: 50px;
+}
+
+.post_con .d-flex {
+    justify-content: space-between;
+    margin         : 15px 0;
+}
+
+.post_con .d-flex span {
+    font-size  : 21px;
+    font-weight: 600;
+}
+
+.post_con .d-flex input, select, textarea {
+    width: 67%;
+    border: none;
+    background: #F5F5F5;
+    padding: 6px 9px;
+    outline: navajowhite;
+}
+.post_con .d-flex textarea {
+    resize: none;
+    height: 100px;
+}
+.top.d-flex i {
+    margin-right: 10px;
+}
+
+.top.d-flex {
+    font-size: 22px;
+}
+
+.d-flex.button {
+	justify-content: right;
+}
+.d-flex.button button {
+	padding: 4px 14px;
+	border: none;
+	background: var(--main-color);
+	border-radius: 6px;
+	margin-top: 12px;
+	color: white;
+	box-shadow: 2px 3px 7px 1px gray;
+}
+@media (max-width: 1200px ){
+    .post {
+        margin-left: 141px;
+    }
+}
+@media (max-width: 1100px ){
+    .post {
+        width: 730px;
+        margin-left: 231px;
+    }
+}
+@media (max-width: 1000px ){
+    .post {
+        width: 681px;
+        margin-left: 252px;
+    }
+}
+@media (max-width: 991px ){
+    .post {
+        width: 681px;
+        margin-left: 98px;
+    }
+}
+@media (max-width: 893px ){
+    .post {
+        width: 90%;
+        margin: auto;
+    }
+    .img_div {
+        display: none;
+    }
+}
+@media (max-width: 768px ){
+    .post {
+        width: 100%;
+    }
+    .color_div {
+        width: 298px;
+        height: 558px;
+        left: 36px;
+        top: -32px;
+    }
+    main .container h1 {
+        margin-top: 40px;
+    }
+    .post_con {
+        padding: 18px;
+    }
+
+
+}
+@media (max-width: 520px ){
+    .post_con .d-flex {
+        display: block !important;
+    }
+    .post_con .d-flex input, select, textarea {
+        width: 100%;
+    }
+    main .container h1 {
+        margin-top: 24px;
+    }
+    .color_div {
+        width: 328px;
+        height: 524px;
+        left: 5px;
+        top: -27px;
+    }
+}
+@media (max-width: 480px ){
+    .color_div {
+        display: none;
+    }
+    main .container h1 {
+        color: var(--main-color);
+        text-shadow: none;
+        font-size: 23px;
+    }
+}
+@media (max-width: 344px ){
+    .top.d-flex {
+        font-size: 17px;
+    }
+}
