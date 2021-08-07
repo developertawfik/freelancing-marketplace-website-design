@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --poppins      : 'Poppins', sans-serif;
+    --main-color   : #304351;
+    --secound-color: #E8524A;
+}
+
+a {
+    text-decoration: none;
+    color          : var(--main-color) !important;
+}
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--poppins);
+}
+
+.navbar {
+    box-shadow: -3px 2px 5px 4px rgb(0 0 0 / 6%);
+    width     : 100%;
+    background: white;
+}
+
+.navbar .collapse .navbar-nav a {
+    color          : var(--main-color);
+    padding        : 9px 16px;
+    font-size      : 23px;
+    text-decoration: none;
+    transition     : all 0.5s ease;
+}
+
+.navbar .collapse .navbar-nav a:hover {
+    color: var(--secound-color) !important;
+}
+
+.navbar .collapse .navbar-nav a.active_menu {
+    color: var(--secound-color) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon i {
+    font-size      : 26px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 2px;
+}
+
+.navbar .collapse .navbar-nav img {
+    width        : 50px;
+    height       : 50px;
+    object-fit   : cover;
+    border-radius: 100%;
+    cursor       : pointer;
+    margin-left  : 11px;
+}
+
+.profile_img img {
+	width: 100%;
+	max-height: 260px;
+	object-fit: cover;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.profile {
+    margin-top: 85px;
+}
+
+.profile_dt {
+    margin-left: 27px;
+    color      : var(--main-color);
+}
+
+.n-l {
+    display    : flex;
+    align-items: center;
+}
+
+.n-l .name {
+    margin-right: 15px;
+}
+
+.n-l .name h3 {
+    font-size  : 37px;
+    font-weight: 700;
+}
+
+.review_dt {
+    display        : flex;
+    justify-content: stretch;
+    align-items    : center;
+    margin         : 6px 0;
+}
+
+.review_dt .r_piont {
+    margin-right: 10px;
+}
+
+.review_dt .r_piont span {
+    font-size  : 20px;
+    font-weight: 700;
+}
+
+.star_icon {
+    margin-right: 22px;
+}
+
+.star_icon i {
+    padding: 0 2px;
+}
+
+.star_icon .fas {
+    color: var(--secound-color);
+}
+
+.r_text span {
+    font-size  : 16px;
+    font-weight: 500;
+}
+
+.other span {
+    font-size  : 18px;
+    font-weight: 500;
+}
+
+.other button {
+    border       : none;
+    background   : var(--main-color);
+    padding      : 2px 10px;
+    border-radius: 30px;
+    color        : white;
+    margin-top   : 13px;
+    margin-left  : -5px;
+}
+
+.bottom_con {
+    margin-top: 55px;
+}
+
+.t-r.d-flex {
+	justify-content: left;
+	align-items: center;
+	margin-bottom: 41px;
+}
+.t-r{
+    position: relative;
+}
+.t-r.d-flex span {
+    margin-left        : 10px;
+    font-size          : 17px;
+    font-weight        : 600;
+    margin-top         : 4px;
+}
+
+.t-r::after{
+    content: "";
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--secound-color);
+    width: 110px;
+    position: absolute;
+    bottom: -3px;
+    left: -4px;
+}
+
+.ab_dt {
+    margin-top: 41px;
+    margin-left: -9px;
+    color: #304351;
+}
+
+.ab_dt .d-flex p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.ab_dt .d-flex span {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-left: 55px;
+}
+
+.skills.d-flex ul {
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 1px;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+.skills.d-flex ul li {
+    margin: 0px 7px;
+    background: gainsboro;
+    padding: 4px 14px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.reviews .r_con .r_img img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 100%;
+    border: 1px solid gainsboro;
+}
+
+.r_dt {
+    margin-left: 10px;
+    color: var(--main-color);
+}
+
+.item {
+	display: flex;
+	justify-content: center;
+}
+
+.r_dt .d-flex h3 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.r_dt .d-flex i{
+    color: var(--secound-color);
+}
+.r_dt .d-flex {
+	justify-content: left;
+	align-items: center;
+}
+
+.r_dt span {
+    display: flex;
+    font-size: 14px;
+}
+.r_dt span:nth-child(3) {
+    margin-top: -4px;
+}
+
+.r_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r_con.d-flex {
+    margin: 15px 0;
+}
+
+
+.all_reviews{
+    width: 100%;
+    max-height: 180px;
+    overflow-y: scroll;
+}
+.all_reviews::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+.all_reviews::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+.all_reviews::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+.project .owl-carousel .item img {
+	width: 260px;
+	height: 260px;
+	object-fit: cover;
+	border-radius: 35px;
+	padding: 0 10px;
+}
+.project {
+    margin-top: 110px;
+}
+
+
+.project h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 33px;
+    color: var(--main-color);
+    position: relative;
+}
+
+.project h3 i {
+    font-size: 26px;
+    margin-right: 11px;
+}
+
+.project h3::after {
+    content: "";
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--secound-color);
+    width: 160px;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	width: 45px;
+    background: var(--secound-color) !important;
+}
+
+
+@media (max-width:991px){
+    .profile_img img {
+        width: 134%;
+        object-fit: cover;
+    }
+    .profile_dt {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:767px){
+    .profile_img img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .profile {
+        margin-top: 60px;
+    }
+    .profile_dt {
+        margin-left: 0;
+    }
+    .profile_dt {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .r_text {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .owl-theme .owl-controls .owl-page span {
+        width: 23px;
+    }
+    .ab_dt .d-flex span {
+        margin-left: 15px;
+    }
+    .skills.d-flex ul {
+        margin-left: -34px;
+    }
+}
