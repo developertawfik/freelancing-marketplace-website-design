@@ -9,7 +9,7 @@
 
 a {
     text-decoration: none;
-    color          : var(--main-color) !important;
+    color          : #304351 !important;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
 }
 
 .navbar .collapse .navbar-nav a {
-    color          : var(--main-color);
+    color          : #304351;
     padding        : 9px 16px;
     font-size      : 23px;
     text-decoration: none;
@@ -37,11 +37,11 @@ body {
 }
 
 .navbar .collapse .navbar-nav a:hover {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar .collapse .navbar-nav a.active_menu {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar-toggler:focus {
@@ -80,7 +80,7 @@ body {
 
 .profile_dt {
     margin-left: 27px;
-    color      : var(--main-color);
+    color      : #304351;
 }
 
 .n-l {
@@ -122,7 +122,7 @@ body {
 }
 
 .star_icon .fas {
-    color: var(--secound-color);
+    color: #E8524A;
 }
 
 .r_text span {
@@ -137,7 +137,7 @@ body {
 
 .other button {
     border       : none;
-    background   : var(--main-color);
+    background   : #304351;
     padding      : 2px 10px;
     border-radius: 30px;
     color        : white;
@@ -168,7 +168,7 @@ body {
     content: "";
     border-style: solid;
     border-bottom-width: 1px;
-    border-color: var(--secound-color);
+    border-color: #E8524A;
     width: 110px;
     position: absolute;
     bottom: -3px;
@@ -220,7 +220,7 @@ body {
 
 .r_dt {
     margin-left: 10px;
-    color: var(--main-color);
+    color: #304351;
 }
 
 .item {
@@ -235,7 +235,7 @@ body {
     margin-bottom: 0;
 }
 .r_dt .d-flex i{
-    color: var(--secound-color);
+    color: #E8524A;
 }
 .r_dt .d-flex {
 	justify-content: left;
@@ -275,7 +275,7 @@ body {
 }
    
 .all_reviews::-webkit-scrollbar-thumb {
-    background-color: var(--main-color);
+    background-color: #304351;
 }
 .project .owl-carousel .item img {
 	width: 260px;
@@ -293,7 +293,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 33px;
-    color: var(--main-color);
+    color: #304351;
     position: relative;
 }
 
@@ -306,7 +306,7 @@ body {
     content: "";
     border-style: solid;
     border-bottom-width: 1px;
-    border-color: var(--secound-color);
+    border-color: #E8524A;
     width: 160px;
     position: absolute;
     left: 0;
@@ -315,7 +315,7 @@ body {
 
 .owl-theme .owl-controls .owl-page span {
 	width: 45px;
-    background: var(--secound-color) !important;
+    background: #E8524A !important;
 }
 
 

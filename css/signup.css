@@ -9,7 +9,7 @@
 
 a{
     text-decoration: none;
-    color: var(--main-color) !important;
+    color: #304351 !important;
 }
 
 *{
@@ -31,18 +31,18 @@ body{
 }
 
 .navbar .collapse .navbar-nav a {
-    color: var(--main-color);
+    color: #304351;
     padding: 9px 16px;
     font-size: 23px;
     text-decoration: none;
     transition: all 0.5s ease;
 }
 .navbar .collapse .navbar-nav a:hover {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar .collapse .navbar-nav a.active_menu {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar-toggler:focus {
@@ -67,7 +67,7 @@ main {
     top: 68px;
 }
 .top_title {
-    color: var(--main-color);
+    color: #304351;
 }
 
 .top_title h1 {
@@ -98,7 +98,7 @@ main {
 }
 .all_info.m-auto {
     width: 85%;
-    color: var(--main-color);
+    color: #304351;
 }
 .all_info .input_info {
     display: flex;
@@ -117,19 +117,19 @@ main {
 }
 .input_info .in_con input {
     border: none;
-    border-bottom: 2px solid var(--main-color);
+    border-bottom: 2px solid #304351;
     width: 100%;
     outline: none;
 }
 .input_info .in_con input:focus{
-    border-bottom: 2px solid var(--secound-color);
+    border-bottom: 2px solid #E8524A;
 }
 .input_info .in_con select {
     width: 100%;
     outline: none;
 }
 .input_info .in_con input::placeholder {
-    color: var(--main-color);
+    color: #304351;
     opacity: 0.5;
 }
 
@@ -157,7 +157,7 @@ main {
     width: 100%;
 }
 .bottom_con .bottom_agree .select_want p.active{
-    background-color: var(--main-color);
+    background-color: #304351;
     color: white;
 }
 
@@ -186,7 +186,7 @@ main {
 
 .submit_btn.d-flex input:nth-child(1) {
     padding: 6px 15px;
-    background-color: var(--main-color);
+    background-color: #304351;
     color: white;
     border: none;
     border-radius: 8px;

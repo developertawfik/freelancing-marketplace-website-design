@@ -8,7 +8,7 @@
 
 a {
     text-decoration: none;
-    color          : var(--main-color) !important;
+    color          : #304351 !important;
 }
 
 li {
@@ -39,7 +39,7 @@ main {
 }
 
 .navbar .collapse .navbar-nav a {
-    color          : var(--main-color);
+    color          : #304351;
     padding        : 9px 16px;
     font-size      : 23px;
     text-decoration: none;
@@ -47,11 +47,11 @@ main {
 }
 
 .navbar .collapse .navbar-nav a:hover {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar .collapse .navbar-nav a.active_menu {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar-toggler:focus {
@@ -116,7 +116,7 @@ main {
 }
 
 .l_menu ul li.active_op {
-    border-right: 5px solid var(--secound-color);
+    border-right: 5px solid #E8524A;
 }
 
 .top_search {
@@ -163,7 +163,7 @@ main {
 	font-size: 19px;
 	font-weight: 600;
 	padding-right: 10px;
-	color: var(--main-color);
+	color: #304351;
 	cursor: pointer;
 }
 
@@ -173,7 +173,7 @@ main {
 }
 
 .top_menu ul li.active_tm {
-    color: var(--secound-color);
+    color: #E8524A;
 }
 
 .firt_line.d-flex {
@@ -231,7 +231,7 @@ main {
 }
 
 .user_n i {
-    color: var(--secound-color);
+    color: #E8524A;
 }
 
 .user_n span {
@@ -256,7 +256,7 @@ main {
 }
 
 span.dollar {
-    color: var(--secound-color);
+    color: #E8524A;
 }
 
 .details_con.d-flex a i {
@@ -275,12 +275,12 @@ span.dollar {
 }
 
 .button_sec.d-flex button:nth-child(1) {
-    background  : var(--main-color);
+    background  : #304351;
     margin-right: 10px;
 }
 
 .button_sec.d-flex button:nth-child(2) {
-    background: var(--secound-color);
+    background: #E8524A;
 }
 
 .con_div:last-child {

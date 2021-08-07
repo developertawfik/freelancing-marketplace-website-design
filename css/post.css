@@ -9,7 +9,7 @@
 
 a {
     text-decoration: none;
-    color          : var(--main-color) !important;
+    color          : #304351 !important;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
 }
 
 .navbar .collapse .navbar-nav a {
-    color          : var(--main-color);
+    color          : #304351;
     padding        : 9px 16px;
     font-size      : 23px;
     text-decoration: none;
@@ -37,11 +37,11 @@ body {
 }
 
 .navbar .collapse .navbar-nav a:hover {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar .collapse .navbar-nav a.active_menu {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar-toggler:focus {
@@ -72,7 +72,7 @@ body {
 .color_div {
     width           : 401px;
     height          : 885px;
-    background-color: var(--main-color);
+    background-color: #304351;
     transform       : rotate(46deg);
     border-radius   : 212px;
     position        : absolute;
@@ -91,7 +91,7 @@ main .container h1 {
     margin: auto;
     background: white;
     box-shadow: rgba(128, 128, 128, 0.45) 10px -1px 22px 4px;
-    color: var(--main-color);
+    color: #304351;
     margin-top: 22px;
     margin-left: 300px;
 }
@@ -116,7 +116,7 @@ main .container h1 {
     background   : white;
     padding      : 4px 16px;
     border-radius: 21px;
-    color        : var(--secound-color);
+    color        : #E8524A;
 }
 
 .post_con {
@@ -158,7 +158,7 @@ main .container h1 {
 .d-flex.button button {
 	padding: 4px 14px;
 	border: none;
-	background: var(--main-color);
+	background: #304351;
 	border-radius: 6px;
 	margin-top: 12px;
 	color: white;
@@ -237,7 +237,7 @@ main .container h1 {
         display: none;
     }
     main .container h1 {
-        color: var(--main-color);
+        color: #304351;
         text-shadow: none;
         font-size: 23px;
     }

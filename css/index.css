@@ -9,7 +9,7 @@
 
 a {
     text-decoration: none;
-    color          : var(--main-color) !important;
+    color          : #304351 !important;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
 }
 
 .navbar .collapse .navbar-nav a {
-    color          : var(--main-color);
+    color          : #304351;
     padding        : 9px 16px;
     font-size      : 23px;
     text-decoration: none;
@@ -37,11 +37,11 @@ body {
 }
 
 .navbar .collapse .navbar-nav a:hover {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar .collapse .navbar-nav a.active_menu {
-    color: var(--secound-color) !important;
+    color: #E8524A !important;
 }
 
 .navbar-toggler:focus {
@@ -96,11 +96,11 @@ body {
 
 .left_c button:nth-child(2) {
     color           : white;
-    background-color: var(--secound-color);
+    background-color: #E8524A;
 }
 
 .left_c button:nth-child(3) {
-    color           : var(--secound-color);
+    color           : #E8524A;
     background-color: transparent;
 }
 
@@ -113,7 +113,7 @@ div#service .container {
 }
 
 #service h1 {
-    color      : var(--main-color);
+    color      : #304351;
     font-weight: 600;
 }
 
@@ -141,7 +141,7 @@ div#service .container {
 .s_title p {
     font-size  : 23px;
     font-weight: 500;
-    color      : var(--main-color);
+    color      : #304351;
 }
 
 #service .col-md-4 {
@@ -153,7 +153,7 @@ div#service .container {
 }
 
 .about h1 {
-    color      : var(--main-color);
+    color      : #304351;
     font-weight: 600;
 }
 
@@ -170,13 +170,13 @@ div#service .container {
     padding      : 0 100px;
     border-bottom: 2px solid #3043519c;
     margin       : -4px;
-    color        : var(--main-color);
+    color        : #304351;
     cursor       : pointer;
 }
 
 .about .a_select span.active {
     border-bottom: 2px solid #e8524a75;
-    color        : var(--secound-color);
+    color        : #E8524A;
 }
 
 .a_right {
@@ -184,11 +184,11 @@ div#service .container {
 }
 
 .a_right h1 {
-    color: var(--main-color);
+    color: #304351;
 }
 
 .a_right ul {
-    color: var(--main-color);
+    color: #304351;
 }
 
 .a_right button {
@@ -199,13 +199,13 @@ div#service .container {
     font-size: 21px;
     font-weight: 500;
     color: white;
-    background-color: var(--main-color);
+    background-color: #304351;
     box-shadow: 2px 0px 18px 0px #808080d4;
 }
 
 .a_right p {
     margin-top : 22px;
-    color      : var(--main-color);
+    color      : #304351;
     line-height: 1;
 }
 
@@ -228,7 +228,7 @@ div#service .container {
 }
 
 .trushted h1 {
-    color: var(--main-color);
+    color: #304351;
     font-weight: 600;
 }
 
@@ -241,7 +241,7 @@ div#service .container {
     margin-top: 60px;
 }
 .join h1 {
-    color: var(--main-color);
+    color: #304351;
     font-weight: 600;
     margin-bottom: 25px;
 }
@@ -259,7 +259,7 @@ div#service .container {
 .join_main h3 {
     font-size: 31px;
     font-weight: 700;
-    color: var(--secound-color);
+    color: #E8524A;
 }
 
 .join_main p {
@@ -278,7 +278,7 @@ div#service .container {
     font-size: 21px;
     font-weight: 500;
     color: white;
-    background-color: var(--main-color);
+    background-color: #304351;
     box-shadow: 2px 0px 18px 0px #808080d4;
 }
 footer {
@@ -287,7 +287,7 @@ footer {
 }
 .footer_menu .row {
     text-align: center;
-    color: var(--main-color);
+    color: #304351;
     padding-top: 28px;
 }
 .footer_menu .row ul {
