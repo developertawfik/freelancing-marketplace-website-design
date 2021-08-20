@@ -147,10 +147,9 @@ main {
 }
 
 .right_con {
-    position   : absolute;
-    right      : 0px;
-    height     : 88vh;
-    width      : 79%;
+    position: absolute;
+    height: 88vh;
+    width: 100%;
     padding-top: 76px;
 }
 .right_con .container-fluid {
@@ -181,33 +180,50 @@ main {
     z-index    : 1;
     width      : 35%;
 }
-
-
-
-
+.history_list {
+    box-shadow: 0px 7px 11px 7px #8080801f;
+    padding-top: 0;
+    border: 1px solid #80808045;
+}
+.top_title h1 {
+    color: #304354;
+    margin-top: -38px;
+    font-size: 34px;
+}
+.select {
+    display: flex;
+    margin-top: 21px;
+    justify-content: center;
+}
+.select p.active {
+    background: var(--main-color);
+    color: white;
+    padding: 0 7px;
+    border-radius: 11px;
+}
+.select p {
+    padding: 0 10px;
+    cursor: pointer;
+}
 .w_history {
     width: 34%;
     color: #304351;
     margin-left: 39px;
     padding: 0 12px;
 }
-.w_history>p {
-    font-weight: 700;
-    font-size  : 17px;
-}
 
 .history_list h3 {
-    text-align : center;
+    text-align: center;
     font-weight: 600;
+    background-color: #f5efef;
+    padding: 13px 0;
 }
-
 .title_div {
-    display        : flex;
+    display: flex;
     justify-content: space-between;
-    margin         : 21px 10px;
-    color          : #304351cf;
+    margin: 7px 10px;
+    color: #304351cf;
 }
-
 .all_history {
     overflow-y     : scroll;
     scroll-behavior: smooth;
@@ -243,9 +259,9 @@ main {
 }
 
 .tran {
-    color: #304351d4;
+	color: #304351d4;
+	padding-left: 11px;
 }
-
 .transaction p {
     font-size  : 17px;
     font-weight: 600;
@@ -267,25 +283,28 @@ main {
     margin-top: 0px;
 }
 .top_w {
-    background: #304351;
+    background: #F9CF85;
     border-radius: 17px;
-    color: #ffff;
-    padding: 29px 29px 1px 29px;
+    color: #304354;
+    padding: 19px 29px 25px 29px;
+    width: 472px;
+    margin: auto;
+    margin-top: 24px;
 }
-.balance {
-    margin: 33px 0;
-    font-size: 21px;
+.t_w_l h1 {
+    font-size: 52px;
 }
-.top_w h5 {
-    font-size: 13px;
-    font-weight: 500;
+.date {
+    display: flex;
+    justify-content: flex-end;
 }
-
 .button_dev {
     display: flex;
-    justify-content: space-around;
-    margin-top: 34px;
     flex-wrap: wrap-reverse;
+    width: 410px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 27px;
 }
 
 button.first_btn span.d-flex {
@@ -295,15 +314,7 @@ button.first_btn span.d-flex {
     font-weight: 700;
 }
 
-button.first_btn .d-flex span:nth-child(1) {
-    color: #fff;
-}
-button.first_btn .d-flex span:nth-child(2) {
-    font-size: 14px;
-}
-button.first_btn .d-flex {
-    justify-content: space-between;
-}
+
 
 .button_dev button {
     border: none;
@@ -311,23 +322,21 @@ button.first_btn .d-flex {
     border-radius: 18px;
     color: #304351;
 }
-.button_dev button:nth-child(2) {
-    background: linear-gradient(176deg, rgba(0,68,143,1) 0%, rgba(202,244,255,1) 100%);
+.button_dev button:nth-child(1) {
     font-size: 24px;
     font-weight: 600;
-    text-shadow: 1px 4px 8px grey;
-}
-.button_dev button:nth-child(1){
-    background-color: #E8524A;
-}
-.w_bottom {
-    background: #304351;
-    border-radius: 13px;
+    background: #304354;
     color: white;
-    padding: 20px;
-    margin-top: 31px;
 }
-
+.button_dev button:nth-child(2) {
+    background-color: #374a5a;
+    color: white;
+}
+.w_bottom h6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
 @media (max-width:990px) {
     .title h2 {
         font-size: 22px;
@@ -345,6 +354,13 @@ button.first_btn .d-flex {
         margin-left: -3px;
 
     }
+    .top_w {
+        width: 400px;
+    }
+    .button_dev {
+        width: 380px;
+    }
+    
 }
 
 @media (max-width:941px) {
@@ -372,6 +388,12 @@ button.first_btn .d-flex {
     }
     button.first_btn .d-flex span:nth-child(2) {
         font-size: 12px;
+    }
+    .top_w {
+        width: 100%;
+    }
+    .button_dev {
+        width: 90%;
     }
 }
 
@@ -489,10 +511,6 @@ button.first_btn .d-flex {
     .w_history {
         width: 100%;
     }
-    .button_dev button:nth-child(2) {
-        padding: 18px 42px;
-        margin-bottom: 16px;
-    }
 
 }
 @media (max-width:450px) {
@@ -511,6 +529,12 @@ button.first_btn .d-flex {
     }
     .history_div {
         padding: 10px 0px;
+    }
+    .button_dev button:nth-child(1) {
+        font-size: 15px;
+    }
+    .button_dev button:nth-child(2) {
+        font-size: 12px;
     }
 
 }
@@ -586,6 +610,10 @@ button.first_btn .d-flex {
     .all_history {
         height: auto;
         overflow-y: inherit;
+    }
+
+    .right_con .container-fluid {
+        padding: 0;
     }
 
 }
